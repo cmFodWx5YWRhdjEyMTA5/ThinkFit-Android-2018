@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ * Copyright Ⓒ 2018. All rights reserved
+  ~ * Author DangTin. Create on 2018/05/29
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/tv_submit"
+            android:layout_marginLeft="@dimen/define_dimen_12"
+            android:layout_marginRight="@dimen/define_dimen_12"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/define_dimen_10"
+                android:text="@string/label_oops"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/text_size_xxnormal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/message_went_wrong"
+                android:textSize="@dimen/text_size_small" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rcv_reason"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/define_dimen_16" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/define_dimen_30"
+            android:layout_marginTop="@dimen/define_dimen_30"
+            android:background="@drawable/bg_white_corner_border_grey"
+            android:paddingBottom="@dimen/define_dimen_10"
+            android:paddingLeft="@dimen/define_dimen_60"
+            android:paddingRight="@dimen/define_dimen_60"
+            android:paddingTop="@dimen/define_dimen_10"
+            android:text="@string/submit"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/text_size_normal" />
+    </RelativeLayout>
+</LinearLayout>

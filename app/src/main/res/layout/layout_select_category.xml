@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ * Copyright Ⓒ 2018. All rights reserved
+  ~ * Author DangTin. Create on 2018/05/20
+  -->
+
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rdg_category"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioButton
+        android:id="@+id/rdb_category_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/red"
+        android:paddingBottom="@dimen/define_dimen_16"
+        android:paddingTop="@dimen/define_dimen_16"
+        android:text="@string/category_1"
+        android:textColor="@color/red" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/red" />
+
+    <RadioButton
+        android:id="@+id/rdb_category_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/orange"
+        android:paddingBottom="@dimen/define_dimen_16"
+        android:paddingTop="@dimen/define_dimen_16"
+        android:text="@string/category_2"
+        android:textColor="@color/orange" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/orange" />
+
+    <RadioButton
+        android:id="@+id/rdb_category_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/green"
+        android:paddingBottom="@dimen/define_dimen_16"
+        android:paddingTop="@dimen/define_dimen_16"
+        android:text="@string/category_3"
+        android:textColor="@color/green" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/green" />
+
+    <RadioButton
+        android:id="@+id/rdb_category_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/purple"
+        android:paddingBottom="@dimen/define_dimen_16"
+        android:paddingTop="@dimen/define_dimen_16"
+        android:text="@string/category_4"
+        android:textColor="@color/purple" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/purple" />
+</RadioGroup>

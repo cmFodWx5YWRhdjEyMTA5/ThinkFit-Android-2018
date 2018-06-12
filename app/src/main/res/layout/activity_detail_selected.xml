@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ * Copyright Ⓒ 2018. All rights reserved
+  ~ * Author DangTin. Create on 2018/05/20
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="@dimen/define_dimen_20">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_xnormal" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/define_dimen_30"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_small" />
+
+    <TextView
+        android:id="@+id/tv_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/define_dimen_40"
+        android:layout_marginTop="@dimen/define_dimen_40"
+        android:background="@drawable/bg_white_corner_radius_30"
+        android:paddingBottom="@dimen/define_dimen_10"
+        android:paddingLeft="@dimen/define_dimen_60"
+        android:paddingRight="@dimen/define_dimen_60"
+        android:paddingTop="@dimen/define_dimen_10"
+        android:text="@string/label_continue"
+        android:textColor="@color/green"
+        android:textSize="@dimen/text_size_normal" />
+</LinearLayout>

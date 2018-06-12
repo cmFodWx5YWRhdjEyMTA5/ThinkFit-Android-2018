@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ * Copyright Ⓒ 2018. All rights reserved
+  ~ * Author DangTin. Create on 2018/05/30
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <include layout="@layout/layout_level_and_point" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/define_dimen_12"
+        android:paddingRight="@dimen/define_dimen_12">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/layout_button">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_time_recovery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="04:10"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/text_size_huge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/you_got"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/define_dimen_2"
+                    android:text="5 Push ups"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/define_dimen_2"
+                    android:text="Gives you [ 03 ] Fit Points"
+                    android:textSize="@dimen/text_size_small" />
+
+                <ImageView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_marginTop="@dimen/define_dimen_30"
+                    android:background="@drawable/shape_circle_white_border_grey"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tv_how_to_work_out"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/define_dimen_20"
+                    android:padding="@dimen/define_dimen_6"
+                    android:text="@string/how_to_work_out"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/layout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/define_dimen_20"
+            android:layout_marginTop="@dimen/define_dimen_20"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_skip"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="@dimen/define_dimen_10"
+                android:paddingTop="@dimen/define_dimen_10"
+                android:text="@string/skip"
+                android:textColor="@color/green"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:id="@+id/tv_completed"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_corner_border_grey"
+                android:gravity="center"
+                android:paddingBottom="@dimen/define_dimen_10"
+                android:paddingTop="@dimen/define_dimen_10"
+                android:text="@string/completed"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/text_size_normal" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

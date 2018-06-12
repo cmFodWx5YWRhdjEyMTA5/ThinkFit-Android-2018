@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ * Copyright Ⓒ 2018. All rights reserved
+  ~ * Author DangTin. Create on 2018/05/13
+  -->
+
+<resources>
+    <string name="app_name">ThinkFit</string>
+
+    // Navigation
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    // Menu
+    <string name="home">Home</string>
+    <string name="my_task">My Tasks</string>
+    <string name="about_the_app">About The App</string>
+    <string name="notifications">Notifications</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+
+    // action
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+
+    // dialog
+    <string name="waiting_message">Please wait...</string>
+
+    // msg
+    <string name="error_not_connect_to_internet">You are not connect to internet</string>
+    <string name="msg_exit_app">Do you want to exit?</string>
+
+    // Tutorial screen
+    <string name="skip">Skip</string>
+
+    // Sign in screen
+    <string name="not_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in_other">Or Sign in with</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_lowercase">Sign in</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="please_enter_valid_detail">Please enter a valid details</string>
+
+    // Sign up screen
+    <string name="name">Name</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="email">E-mail</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="by_signing_up_you_agree">By Signing up you agree to our</string>
+    <string name="terms_and_conditons">Terms &amp; Conditons</string>
+    <string name="proceed">Proceed</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="registration">Registration</string>
+    <string name="average_start_time">Average Start Time</string>
+    <string name="label_continue">Continue</string>
+    <string name="focus_days">Focus Days</string>
+    <string name="select_your_category">Select Your Category</string>
+    <string name="student">Student</string>
+    <string name="self_employed">Self Employed</string>
+    <string name="employed">Employed</string>
+    <string name="message_register_confirm">This is a self assessment needed for us to bring you the most suitable
+        set of exercises helping you to improve over time.</string>
+    <string name="message_register_mode_1">The Department of Health recommends adults are</string>
+    <string name="message_register_mode_2">active for 150 minutes or</string>
+    <string name="message_register_mode_3">active for 75 minutes each week</string>
+    <string name="message_register_mode_4">In an average week, how close are you to achieving this?</string>
+    <string name="moderately">moderately</string>
+    <string name="vigorously">vigorously</string>
+    <string name="register_mode_1">You achieve this every week</string>
+    <string name="register_mode_2">You\'re almost there, but not quite</string>
+    <string name="register_mode_3">You do around half of what\'s recommended</string>
+    <string name="register_mode_4">You\'re a long way off doing what\'s recommended</string>
+    <string name="close">Close</string>
+
+    <string name="title_mode_1">Good job!</string>
+    <string name="title_mode_2">That’s ok!</string>
+    <string name="title_mode_3">Oh!</string>
+    <string name="title_mode_4">Not a big deal,</string>
+    <string name="message_mode_1">By meeting the recommended levels of physical activity, the risk of heart disease, stroke and type 2 diabetes is reduced by up to 50%.</string>
+    <string name="message_mode_2">Upping your physical activity levels to 150 minutes a week will lower your risk of heart disease, stroke and type 2 diabetes - by up to 50%</string>
+    <string name="message_mode_3">You know that Upping your physical activity levels to 150 minutes a week will lower your risk of heart disease, stroke and type 2 diabetes - by up to 50%</string>
+    <string name="message_mode_4">We are here for a change! It’s very important that you start being more active to reduce your risk of heart disease, stroke and type 2 diabetes.</string>
+
+    <string name="question_survey_strengthen_1">How many days a week do you do activities that</string>
+    <string name="strengthen_">strengthen</string>
+    <string name="question_survey_strengthen_2">your muscles?</string>
+    <string name="strengthen_1">Atleast two days</string>
+    <string name="strengthen_2">One day</string>
+    <string name="strengthen_3">Hardly ever</string>
+    <string name="title_strengthen_1">Wow!</string>
+    <string name="title_strengthen_2">Cool!</string>
+    <string name="title_strengthen_3">Well,</string>
+    <string name="message_strengthen_1">You’re already working on strengthening your muscles which is great for your health.</string>
+    <string name="message_strengthen_2">You’re already working on your muscle strength which is great for your health. By increasing it to two days a week you’ll gain maximum health benefits</string>
+    <string name="message_strengthen_3">you need to work on your muscle strength. Try doing exercises that use your body weight for resistance. We are here for that!</string>
+
+    <string name="question_survey_climbing_stairs">How would you describe the way you feel after climbing a flight of stairs?</string>
+    <string name="feel_1">Great</string>
+    <string name="feel_2">Ok</string>
+    <string name="feel_3">Breathless</string>
+    <string name="feel_4">Exhausted</string>
+    <string name="feel_5">Can’t do it</string>
+    <string name="title_tip">Tip!</string>
+    <string name="message_tip_1">Avoid taking the lift or escalator every time and start using the stairs. It’s an easy way to build activity into your day!</string>
+    <string name="message_tip_2">Try to make small changes in your day to increase your activity levels. Over time you\'ll be able to climb stairs without feeling exhausted!</string>
+    <string name="message_tip_3">Not being able to climb stairs may suggest you need to see your GP for a health check.</string>
+
+    <string name="question_survey_other">How many of the following could you do easily? (You can pick more than one.)</string>
+    <string name="survey_other_1">10 sit-ups</string>
+    <string name="survey_other_2">5 push-ups</string>
+    <string name="survey_other_3">Touch your toes</string>
+    <string name="survey_other_4">20 star jumps</string>
+    <string name="survey_other_5">None of these</string>
+
+    <string name="message_survey_work_station">Specific information about the workstation</string>
+    <string name="question_work_station_1">Do you have 2X2 mt (6X6 Ft) space available?</string>
+    <string name="question_work_station_2">Do you have a mat or can you do excercises on the floor?</string>
+    <string name="question_work_station_3">Do you have stairs available in your place?</string>
+    <string name="question_work_station_4">Do you have some weighs / resistance bands?</string>
+    <string name="question_work_station_5">Do you have any wearings?</string>
+
+    <string name="fitness_level">Based on the input your fitness level is:</string>
+    <string name="what_is_this">What is this ?</string>
+
+    // Forgot password screen
+    <string name="please_enter_registered_email">Please enter registered Email ID</string>
+    <string name="request_password">Request Password</string>
+    <string name="message_confirm_reset_password">Please check your Email for instructions to reset password</string>
+
+    // Main screen
+    <string name="category_1">Urgent &amp; Important</string>
+    <string name="category_2">Not Urgent &amp; Important</string>
+    <string name="category_3">Urgent &amp; Not Important</string>
+    <string name="category_4">Not Urgent &amp; Not Important</string>
+    <string name="sort_by">Sort by</string>
+    <string name="sort">Sort</string>
+    <string name="message_no_task">There is no task added yet</string>
+    <string name="tab">Tap</string>
+    <string name="to_add_task">to add tasks</string>
+
+    // Contact us screen
+    <string name="submit">Submit</string>
+    <string name="email_id">Email ID</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="comments">Comments</string>
+
+    // Notification screen
+    <string name="delete">Delete</string>
+    <string name="remove_all">Remove All</string>
+    <string name="message_confirm_remove_all">Are you sure you want to remove all notifications?</string>
+
+    // Task screen
+    <string name="new_task">New Task</string>
+    <string name="title_task_name">Task Name</string>
+    <string name="hint_task_name">Enter Task name</string>
+    <string name="title_description_1">What would need to happen for you to check this task off as "Done"!</string>
+    <string name="title_description_2">What is the next Physical action required to move the situation forward?</string>
+    <string name="hint_description">Enter Description</string>
+    <string name="select_category">Select Category</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="productivity_level">Productivity Level</string>
+    <string name="fitness_point">Fitness Point</string>
+    <string name="focus_time">Focus Time</string>
+    <string name="push_to_start">Push to start</string>
+    <string name="stop">Stop</string>
+    <string name="message_confirm_stop_task">Everything fine?</string>
+    <string name="label_oops">Oops !</string>
+    <string name="message_went_wrong">It seems something went wrong</string>
+    <string name="done">Done</string>
+    <string name="label_productivity_level">Productivity Level:</string>
+    <string name="your_focus_time">Your Focus time is now</string>
+    <string name="label_oh_oh">Oh Oh</string>
+    <string name="active_recovery_time">Active Recovery Time</string>
+    <string name="rolling_wheel">Rolling Wheel</string>
+    <string name="completed">Completed</string>
+    <string name="how_to_work_out">How to work out?</string>
+    <string name="you_got">You got</string>
+    <string name="time_is_over">Time is Over</string>
+    <string name="congrats">Congrats !</string>
+    <string name="message_upgrade_fitness_level">We will adjust your fitness level to</string>
+    <string name="start_now">Start Now</string>
+    <string name="label_rest_time">Rest Time:</string>
+    <string name="message_rest_time">After Rest Time Focus TIme will Start Automatically</string>
+    <string name="total_point_of_day">Total point of the day:</string>
+    <string name="points">Points</string>
+    <string name="well_done">WELL DONE !</string>
+    <string name="skip_this">Skip This</string>
+    <string name="try_another">Try Another</string>
+    <string name="message_provide_to_improve">Sorry to hear that please provide for us to improve</string>
+    <string name="too_tired">Too Tired</string>
+    <string name="no_time">No time</string>
+    <string name="too_difficult">Too Difficult</string>
+    <string name="total_point_of_the_day">Total point of the day:</string>
+</resources>

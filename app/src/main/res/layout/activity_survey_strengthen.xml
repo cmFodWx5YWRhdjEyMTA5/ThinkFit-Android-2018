@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ * Copyright Ⓒ 2018. All rights reserved
+  ~ * Author DangTin. Create on 2018/05/20
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/define_dimen_16">
+
+        <TextView
+            android:id="@+id/tv_question_survey_strengthen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_small" />
+
+        <RadioGroup
+            android:id="@+id/rdg_strengthen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/define_dimen_20"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rdb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/strengthen_1" />
+
+            <RadioButton
+                android:id="@+id/rdb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/define_dimen_10"
+                android:text="@string/strengthen_2" />
+
+            <RadioButton
+                android:id="@+id/rdb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/define_dimen_10"
+                android:text="@string/strengthen_3" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/define_dimen_40"
+            android:background="@drawable/bg_white_corner_border_grey"
+            android:paddingBottom="@dimen/define_dimen_10"
+            android:paddingLeft="@dimen/define_dimen_60"
+            android:paddingRight="@dimen/define_dimen_60"
+            android:paddingTop="@dimen/define_dimen_10"
+            android:text="@string/label_continue"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/text_size_normal" />
+    </LinearLayout>
+</LinearLayout>
